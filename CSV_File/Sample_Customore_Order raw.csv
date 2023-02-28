@@ -1,0 +1,13 @@
+,,
+,customer_unique_id,the ID to identify an unique customer. Each unique customer will be given one ID only
+,order_id,the ID to identify different orders. Each order successfully created will have one unique ID
+,item_quantity,number of items in each order
+,created_day,the day when the order was generated
+,onsite_original_price,the original price from manufacturer without any promotion
+,selling_price,the price that we show to customers after a certain discount from the original price
+,shipping_fee,the fee that customers have to pay for shipping service
+,voucher_platform,"the amount of an additional promotion coming from a voucher / coupon sponsored by the e-commerce platform (Lazada, Shopee, Tiki, etc.)"
+,voucher_seller,the amount of an additional promotion coming from a voucher / coupon sponsored by the brand / seller
+,payment_method,the payment method chosen by the customer for each order
+,order_status,"the most updated status of each order after being created. 
+COMPLETED = successfully delivered to customer without cancellation. CANCELLED = failed to delivered or cancelled by customer before shipping"
